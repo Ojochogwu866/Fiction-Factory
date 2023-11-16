@@ -2,6 +2,7 @@
 import HomeVue from './Home.vue';
 import Mission from './Mission.vue';
 import Services from './Services.vue';
+import Work from './Work.vue';
 
 </script>
 <template>
@@ -9,5 +10,6 @@ import Services from './Services.vue';
         <HomeVue/>
         <Mission/>
         <Services/>
+        <Work/>
     </div>
 </template>
