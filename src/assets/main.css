@@ -1,0 +1,16 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  max-width: auto;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  body {
+
+
+  }
+}
