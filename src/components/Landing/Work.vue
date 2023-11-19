@@ -32,10 +32,7 @@ import styles from "../../styles/styles";
         <RouterLink to="/" className="flex w-auto gap-4 px-6 py-2">
             <div className=" text-black font-medium font-work-sans text-base flex">
                 See all Works
-                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" 
-                d="M20.8679 12.6767L12.3826 4.19141L10.9684 5.60562L17.0394 11.6767H4.31152V13.6767H17.0395L10.9684 19.7478L12.3826 21.162L20.8679 12.6767Z" fill="black"/>
-            </svg>
+                →
             </div>
         </RouterLink>
         </div>

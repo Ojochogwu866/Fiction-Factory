@@ -4,6 +4,7 @@ import Mission from './Mission.vue';
 import Services from './Services.vue';
 import Work from './Work.vue';
 import Blog from './Blog.vue';
+import Contact from './Contact.vue'
 
 </script>
 <template>
@@ -13,5 +14,6 @@ import Blog from './Blog.vue';
         <Services/>
         <Work/>
         <Blog />
+        <Contact/>
     </div>
 </template>

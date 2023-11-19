@@ -32,7 +32,7 @@ const Work = ref<Props[]>([
         <div class="">
             <div className=" w-full bg-background1 md:h-[400px] rounded-[8px] mt-8"/>
             <div class=" -mt-[250px] w-9/12 gap-14 mx-auto flex">
-                <div class="w-1/2 p-[30px] rounded-lg bg-[#7a9dce] h-[400px] flex flex-col justify-center gap-y-2">
+                <div class="w-1/2 p-[30px] rounded-sm bg-[#7a9dce] h-[400px] flex flex-col justify-center gap-y-2">
                     <h4 class=" text-xl font-work-sans font-medium">Hire Our Services</h4>
                     <ul class="flex flex-col text-base leading-6 font-work-sans space-y-2">
                         <li class="flex gap-3 items-center mt-8" v-for="item in Services" :key="item.id">
@@ -46,7 +46,7 @@ const Work = ref<Props[]>([
                         <RouterLink class=" font-work-sans font-semibold text-base" to="/read-more">Learn More</RouterLink>
                     </div>
                 </div>
-                <div class="w-1/2 p-[30px] rounded-lg bg-[#d76d55] h-[400px] flex flex-col justify-center gap-y-2">
+                <div class="w-1/2 p-[30px] rounded-sm bg-[#d76d55] h-[400px] flex flex-col justify-center gap-y-2">
                     <h4 class=" text-xl font-medium font-work-sans">Work With Us</h4>
                     <ul class="flex flex-col text-base leading-6 font-work-sans space-y-2">
                         <li class=" flex gap-3 items-center mt-8" v-for="item in Work" :key="item.id">

@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
       fontFamily: {
-        'work-sans': ['Work Sans', 'sans-serif']
+        'work-sans': ['Work Sans', 'sans-serif'],
+        'raleway': ['Raleway', 'sans-serif']
       },
     extend: {
       backgroundImage: (theme) => ({
