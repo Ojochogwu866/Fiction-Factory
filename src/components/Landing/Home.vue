@@ -8,7 +8,7 @@ export default defineComponent({
 })
 </script>
 <template>
-    <div class=" pt-5">
+    <div class=" mt-5">
         <div class=" flex">
             <h1 class=" text-[60px] text-black w-3/4 leading-[75px] font-work-sans font-semibold">Fiction factory: Embark on a Spellbinding Odyssey in the hallowed realms of <span class=" [background:linear-gradient(180deg,rgb(12,81,63)_0%,rgba(23.88,197.62,93.38,0)_100%)]
                 py-3 w-fit text-white px-3 rounded-[50px] relative inline-block">reality</span> and <span class=" [background:linear-gradient(180deg,#d76d55_0%,rgba(255,122.76,81,0)_100%)]

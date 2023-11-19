@@ -1,0 +1,4 @@
+gt: 
+    git add .
+	git commit -m "WIP"
+	git push -u origin Master
