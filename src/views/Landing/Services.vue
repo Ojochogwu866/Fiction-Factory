@@ -31,7 +31,7 @@ const Work = ref<Props[]>([
         </div>
         <div class="">
             <div className=" w-full bg-background1 md:h-[400px] rounded-[8px] mt-8"/>
-            <div class=" -mt-[250px] w-9/12 gap-14 mx-auto flex">
+            <div class=" -mt-[350px] w-9/12 gap-14 mx-auto flex">
                 <div class="w-1/2 p-[30px] rounded-sm bg-[#7a9dce] h-[400px] flex flex-col justify-center gap-y-2">
                     <h4 class=" text-xl font-work-sans font-medium">Hire Our Services</h4>
                     <ul class="flex flex-col text-base leading-6 font-work-sans space-y-2">
