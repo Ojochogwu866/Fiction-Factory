@@ -27,7 +27,7 @@ const Work = ref<Props[]>([
 <template>
     <div class="flex flex-col text-black mt-20">
         <div class="flex w-full items-center justify-center">
-            <h3 class=" text-lg leading-9 px-2 w-full border-t border-gray-400 flex pt-8 items-center">Services</h3>
+            <h3 class=" text-lg leading-9 px-2 w-full border-t text-[#d8d5cc] border-gray-400 flex pt-8 items-center">Services</h3>
         </div>
         <div class="">
             <div className=" w-full bg-background1 md:h-[400px] rounded-[8px] mt-8"/>

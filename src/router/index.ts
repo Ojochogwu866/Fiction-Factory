@@ -24,6 +24,16 @@ const router = createRouter({
       path: '/get-matched',
       name: 'getMatched',
       component: () => import('../views/Profile.vue')
+    },
+    {
+      path: '/Contact',
+      name: 'Contact Us',
+      component: () => import('../views/Contact.vue')
+    },
+    {
+      path: '/testimonials',
+      name: 'Testimonials',
+      component: () => import('../views/Testimonials.vue')
     }
   ]
 })

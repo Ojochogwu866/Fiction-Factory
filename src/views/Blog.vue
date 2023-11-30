@@ -11,9 +11,9 @@ const blogPosts: BlogPostType[] = [
   { id: 1, topic: 'Vue 3 and TypeScript', author: 'John Doe', timeToRead: 10, Description: "Netlify Connect is a data unification layer that gives web teams the freedom to create world-class websites, online stores, and applications with data from any existing or new content source." },
   { id: 2, topic: 'Getting Started with CSS-in-JS', author: 'Jane Smith', timeToRead: 8, Description: "Netlify Connect is a data unification layer that gives web teams the freedom to create world-class websites, online stores, and applications with data from any existing or new content source." },
   { id: 3, topic: 'State Management in Vue 3', author: 'Alex Johnson', timeToRead: 15, Description: "Netlify Connect is a data unification layer that gives web teams the freedom to create world-class websites, online stores, and applications with data from any existing or new content source." },
-  { id: 1, topic: 'Vue 3 and TypeScript', author: 'John Doe', timeToRead: 10, Description: "Netlify Connect is a data unification layer that gives web teams the freedom to create world-class websites, online stores, and applications with data from any existing or new content source." },
-  { id: 2, topic: 'Getting Started with CSS-in-JS', author: 'Jane Smith', timeToRead: 8, Description: "Netlify Connect is a data unification layer that gives web teams the freedom to create world-class websites, online stores, and applications with data from any existing or new content source." },
-  { id: 3, topic: 'State Management in Vue 3', author: 'Alex Johnson', timeToRead: 15, Description: "Netlify Connect is a data unification layer that gives web teams the freedom to create world-class websites, online stores, and applications with data from any existing or new content source." },
+  { id: 4, topic: 'Vue 3 and TypeScript', author: 'John Doe', timeToRead: 10, Description: "Netlify Connect is a data unification layer that gives web teams the freedom to create world-class websites, online stores, and applications with data from any existing or new content source." },
+  { id: 5, topic: 'Getting Started with CSS-in-JS', author: 'Jane Smith', timeToRead: 8, Description: "Netlify Connect is a data unification layer that gives web teams the freedom to create world-class websites, online stores, and applications with data from any existing or new content source." },
+  { id: 6, topic: 'State Management in Vue 3', author: 'Alex Johnson', timeToRead: 15, Description: "Netlify Connect is a data unification layer that gives web teams the freedom to create world-class websites, online stores, and applications with data from any existing or new content source." },
 ];
 </script>
 <template>
@@ -33,7 +33,7 @@ const blogPosts: BlogPostType[] = [
         </div>
         </div>
         <div class=" w-full flex justify-center items-center">
-        <div class="relative w-[200px]  mt-8 flex justify-center items-center h-[50px] rounded-[64px] border border-solid border-gray-400">
+        <div class="relative w-[200px]  mt-8 flex justify-center text-gray-400 items-center h-[50px] rounded-[64px] border border-solid border-gray-400">
             See More
         </div>
         </div>

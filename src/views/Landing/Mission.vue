@@ -2,7 +2,7 @@
 
 </script>
 <template>
-    <div class="flex flex-col text-black mt-20">
+    <div class="flex flex-col text-[#d8d5cc] mt-20">
         <div class="flex w-full items-center justify-center">
             <h3 class=" text-lg leading-9 px-2 w-full flex items-center">
                 <div class=" border-b border-gray-400 min-w-[80px] max-w-[150px] h-[0px] mr-4" />

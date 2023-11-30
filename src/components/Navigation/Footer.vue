@@ -76,7 +76,7 @@ import styles from '../../styles/styles';
         </div>
         
         </div>
-        <div class=" border-t-[0.5px] border-gray-600 w-full pb-5 mt-12 font-work-sans px-[80px] flex justify-between">
+        <div class=" border-t-[0.5px] border-gray-600 w-full pb-5 mt-12 font-work-sans px-[80px] text-gray-400 flex justify-between">
             <div class=" mt-4 flex gap-8">
                 <p class=" text-xs">&copy;Fiction Factory 2023</p>
                 <ul class="flex text-xs gap-4">

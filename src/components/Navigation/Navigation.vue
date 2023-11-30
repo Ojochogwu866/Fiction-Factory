@@ -18,10 +18,10 @@ import { RouterLink } from 'vue-router';
             <RouterLink to="/get-matched">
                 Get Matched
             </RouterLink>
-            <RouterLink to="">
+            <RouterLink to="/testimonials">
                 Testimonials
             </RouterLink>
-            <RouterLink to="">
+            <RouterLink to="/Contact">
                 Contact
             </RouterLink>
         </div>

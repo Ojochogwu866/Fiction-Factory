@@ -19,7 +19,7 @@ const blogPosts: BlogPostType[] = [
         <div class="flex w-full items-center justify-center">
             <h3 class=" text-lg leading-9 px-2 w-full flex items-center">
                 <div class=" border-b border-gray-400 min-w-[80px] max-w-[150px] h-[0px] mr-4" />
-                <span class="flex w-[180px] font-work-sans">Blog</span>
+                <span class="flex w-[180px] text-[#d8d5cc] font-work-sans">Blog</span>
                 <div class=" h-[0px] border-b border-gray-400 w-full" /></h3>
         </div>
         <div class=" bg-[#1c1c1e] mt-8 p-5 h-screen pb-10">
