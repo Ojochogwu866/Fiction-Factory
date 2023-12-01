@@ -50,7 +50,7 @@ const users: userType[] = [
                         <h4 class=" text-sm">{{ profile.name }}</h4>
                         <p class="mt-1 text-xs">{{ profile.title }}</p>
                     </div>
-                    <RouterLink class="flex items-center justify-end" to="">
+                    <RouterLink class="flex items-center justify-end" :to="{ name: 'ViewProfile'}">
                         <svg width="38" height="38" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_1_168)">
                                 <path d="M29 0.491699C13.2552 0.491699 0.491528 13.2554 0.491528 29.0002C0.491528 44.745 13.2552 57.5086 29 57.5086C44.7448 57.5086 57.5085 44.745 57.5085 29.0002C57.5085 13.2554 44.7448 0.491699 29 0.491699ZM29 1.47475C44.2019 1.47475 56.5254 13.7983 56.5254 29.0002C56.5254 44.202 44.2019 56.5256 29 56.5256C13.7981 56.5256 1.47458 44.202 1.47458 29.0002C1.47458 13.7983 13.7981 1.47475 29 1.47475Z" fill="url(#paint0_linear_1_168)"/>

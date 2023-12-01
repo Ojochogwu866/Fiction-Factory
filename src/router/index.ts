@@ -23,7 +23,13 @@ const router = createRouter({
     {
       path: '/get-matched',
       name: 'getMatched',
-      component: () => import('../views/Profile.vue')
+      component: () => import('../views/Profile.vue'),
+
+    },
+                {
+      path: '/view-profile',
+      name: 'ViewProfile',
+      component: () => import('../views/ViewProfile.vue')
     },
     {
       path: '/Contact',
@@ -34,7 +40,7 @@ const router = createRouter({
       path: '/testimonials',
       name: 'Testimonials',
       component: () => import('../views/Testimonials.vue')
-    }
+    },
   ]
 })
 
