@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { RouterLink } from 'vue-router';
-
-</script>
 <template>
     <nav class=" flex items-center justify-between w-full bg-transparent 
     px-[80px] py-[60px] text-gray-600 font-normal text-[15px] font-raleway">
@@ -20,6 +16,9 @@ import { RouterLink } from 'vue-router';
             </RouterLink>
             <RouterLink to="/testimonials">
                 Testimonials
+            </RouterLink>
+                <RouterLink to="/purchase">
+                Purchase
             </RouterLink>
             <RouterLink to="/Contact">
                 Contact

@@ -29,13 +29,39 @@ const router = createRouter({
                 {
       path: '/view-profile',
       name: 'ViewProfile',
-      component: () => import('../views/ViewProfile.vue')
+      component: () => import('../views/ViewProfile.vue'),
+      redirect:'/work-history',
+      children: [
+      {
+        path: '/work-history',
+        name: 'WorkHistory',
+        component: () => import('../views/WorkSamples.vue') 
+    },
+      {
+        path: '/previous-experience',
+        name: 'previousExperience',
+        component: () => import('../views/previousExperience.vue') 
+    }
+      ]
     },
     {
       path: '/Contact',
       name: 'Contact Us',
       component: () => import('../views/Contact.vue')
     },
+    {
+            path: '/purchase',
+      name: '[purchase]',
+      component: () => import('../views/cart.vue'),
+      children: [
+       
+      ]
+    },
+     {
+          path: '/buy',
+        name: 'Buy',
+        component: () => import('../views/Buy.vue')
+        },
     {
       path: '/testimonials',
       name: 'Testimonials',
