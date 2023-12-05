@@ -4,7 +4,7 @@ import { RouterView } from 'vue-router';
 
 <template>
     <main class=" px-[80px] py-[40px] md:h-screen flex font-work-sans gap-2">
-        <div class="" >
+        <div class=" h-full" >
             <div class=" md:w-[400px] md:h-[350px] flex justify-center items-center rounded-md bg-teal-950 bg-opacity-20 relative">
                 <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=
                 rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="profile=picture" class=" w-9/12 h-9/12 flex justify-center items-center rounded-full"/>
@@ -17,7 +17,7 @@ import { RouterView } from 'vue-router';
             </div>
 
         </div>
-        <div class=" w-full h-11/12 bg-teal-950 bg-opacity-20 p-5">
+        <div class=" w-full h-full bg-teal-950 bg-opacity-20 p-5">
             <RouterView/>
         </div>
     </main>

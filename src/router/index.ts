@@ -50,12 +50,14 @@ const router = createRouter({
       component: () => import('../views/Contact.vue')
     },
     {
-            path: '/purchase',
-      name: '[purchase]',
-      component: () => import('../views/cart.vue'),
-      children: [
-       
-      ]
+            path: '/purchase-manuscript',
+      name: 'purchase-manuscript',
+      component: () => import('../views/Cart-manuscript.vue'),
+    },
+        {
+            path: '/purchase-published',
+      name: 'purchase-published',
+      component: () => import('../views/Cart-published.vue'),
     },
      {
           path: '/buy',
