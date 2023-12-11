@@ -69,6 +69,25 @@ const router = createRouter({
       name: 'Testimonials',
       component: () => import('../views/Testimonials.vue')
     },
+    {
+    path: '/auth',
+    component: () => import('../components/Auth.vue'),
+    redirect: {
+      name: 'Login',
+    },
+    children: [
+      {
+        path: 'login',
+        name: 'Login',
+        component: () => import('../views/Login.vue'),
+      },
+      {
+        path: 'register',
+        name: 'Register',
+        component: () => import('../views/Register.vue'),
+      },
+    ],
+  },
   ]
 })
 

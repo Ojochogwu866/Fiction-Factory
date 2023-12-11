@@ -6,7 +6,7 @@ import Header from '../components/Header.vue';
 <template>
     <main class=" px-[80px]">
         <Header
-            header-text="Browse throuh latest collections from our Authors"
+            header-text="Browse through top Manuscripts from our Writters"
         />
         <div class="grid grid-cols-4 mt-10">
             <RouterLink to="/buy">

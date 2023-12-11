@@ -9,10 +9,10 @@ import { RouterView } from 'vue-router';
                 <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=
                 rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="profile=picture" class=" w-9/12 h-9/12 flex justify-center items-center rounded-full"/>
             </div>
-            <div class=" md:w-[400px] md:h-[80px] flex items-center px-3 mt-2 rounded-md bg-teal-950 bg-opacity-20 relative">
+            <div class=" md:w-[400px] h-auto py-6 flex items-center px-3 mt-2 rounded-md bg-teal-950 bg-opacity-20 relative">
                 <router-link to="/work-history" class=" text-base text-gray-400 font-normal">Work</router-link>
             </div>
-            <div class=" md:w-[400px] md:h-[80px] flex items-center px-3 mt-2 rounded-md bg-teal-950 bg-opacity-20 relative">
+            <div class=" md:w-[400px] h-auto py-6 flex items-center px-3 mt-2 rounded-md bg-teal-950 bg-opacity-20 relative">
                 <router-link to="/previous-experience" class=" text-base text-gray-400 font-normal">Previous Experience</router-link>
             </div>
 
