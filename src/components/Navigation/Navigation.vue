@@ -77,10 +77,10 @@ export default defineComponent({
             </RouterLink>
         </div>
         <div class=" flex gap-8">
-            <RouterLink to="">
+            <RouterLink to="/auth/Login">
                 Login
             </RouterLink>
-            <RouterLink to="">
+            <RouterLink to="/auth/register">
                 Register
             </RouterLink>
         </div>
