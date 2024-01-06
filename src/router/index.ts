@@ -1,6 +1,6 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Landing from '../views/Landing/index.vue'
-
+import { createRouter, createWebHistory } from 'vue-router';
+import Landing from '../views/Landing/index.vue';
+import profile from './profile'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,15 +32,15 @@ const router = createRouter({
       component: () => import('../views/ViewProfile.vue'),
       redirect:'/work-history',
       children: [
-      {
-        path: '/work-history',
-        name: 'WorkHistory',
-        component: () => import('../views/WorkSamples.vue') 
+    {
+      path: '/work-history',
+      name: 'WorkHistory',
+      component: () => import('../views/WorkSamples.vue') 
     },
-      {
-        path: '/previous-experience',
-        name: 'previousExperience',
-        component: () => import('../views/previousExperience.vue') 
+    {
+      path: '/previous-experience',
+      name: 'previousExperience',
+      component: () => import('../views/previousExperience.vue') 
     }
       ]
     },
@@ -50,32 +50,32 @@ const router = createRouter({
       component: () => import('../views/Contact.vue')
     },
     {
-            path: '/purchase-manuscript',
+      path: '/purchase-manuscript',
       name: 'purchase-manuscript',
       component: () => import('../views/Cart-manuscript.vue'),
     },
-        {
-            path: '/purchase-published',
+    {
+      path: '/purchase-published',
       name: 'purchase-published',
       component: () => import('../views/Cart-published.vue'),
     },
-     {
-          path: '/buy',
-        name: 'Buy',
-        component: () => import('../views/Buy.vue')
-        },
+    {
+      path: '/buy',
+      name: 'Buy',
+      component: () => import('../views/Buy.vue')
+    },
     {
       path: '/testimonials',
       name: 'Testimonials',
       component: () => import('../views/Testimonials.vue')
     },
     {
-    path: '/auth',
-    component: () => import('../components/Auth.vue'),
-    redirect: {
+      path: '/auth',
+      component: () => import('../components/Auth.vue'),
+      redirect: {
       name: 'Login',
     },
-    children: [
+      children: [
       {
         path: 'login',
         name: 'Login',
@@ -88,6 +88,12 @@ const router = createRouter({
       },
     ],
   },
+  {
+		path: "/writter-profile",
+		component: () => import('../Layouts/WritterProfile.vue'),
+		redirect: { name: "Writter-Profile" },
+		children: profile,
+	},
   ]
 })
 

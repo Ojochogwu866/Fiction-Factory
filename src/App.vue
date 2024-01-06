@@ -9,7 +9,7 @@ const route = useRoute();
 
 watch(
   () => showNavigationAndFooter.value = route.name !== 'ViewProfile' && route.matched.length === 1,
-  null, // No cleanup function
+  null,
 );
 </script>
 
